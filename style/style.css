@@ -56,12 +56,12 @@
   text-align: center;
 }
 .main .letter-open {
-  margin: 15px;
+  margin: 30px;
   display: none;
 }
 .main .letter-open .messagebox {
   background-color: ivory;
-  width: 400px;
+  width: auto;
   margin: auto;
   color: #435942;
   padding: 30px;
@@ -71,7 +71,22 @@
   font-family: "OngleipKonkon";
   font-size: 15px;
 }
-.main .letter-open .messagebox .from {
+.main .letter-open .little {
+  padding: 20px;
+}
+.main .letter-open .messagebox2 {
+  background-color: ivory;
+  width: auto;
+  margin: auto;
+  color: #435942;
+  padding: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  box-shadow: 0px 0px 10px 0px white;
+  font-family: "OngleipKonkon";
+  font-size: 15px;
+}
+.main .letter-open .messagebox2 .from {
   background-color: ivory;
   text-align: right;
   margin-bottom: 0px;
