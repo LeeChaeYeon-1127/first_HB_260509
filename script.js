@@ -29,7 +29,7 @@ function reveal() {
 
 // 연 월 일 시 분 초
 // 월이 0부터 시작하는 개어이없는 시스템
-const targetDate = new Date(2026, 4, 8, 22, 40, 1);
+const targetDate = new Date(2026, 4, 9, 18, 56, 1);
 // 이게 컴퓨터 현재 시간 기준으로 계산하라고 알려주는 코드임
 const now = new Date();
 
