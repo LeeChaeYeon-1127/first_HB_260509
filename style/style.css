@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(175, 209, 160);
+}
+
+.overlay {
+  inset: 0 0 0 0;
+  position: absolute;
+}
+.overlay .notice {
+  text-align: center;
+  color: #435942;
+  padding-top: 20dvh;
+  font-family: "OngleipKonkon";
+}
+.overlay .clock_style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.overlay #clock {
+  font-family: "OngleipKonkon";
+  font-weight: bolder;
+  font-weight: 400;
+  font-style: normal;
+  color: #435942;
+  padding: 3rem;
+  background-color: rgb(255, 253, 242);
+  border-radius: 16px;
+}
+
+.main .letter-close {
+  display: block;
+}
+.main .letter-close .envelope {
+  width: 250px;
+  height: 200px;
+  background-image: url("../img/letter_img.png");
+  background-size: cover;
+  background-position: center;
+  margin: 200px auto 0px auto;
+  cursor: pointer;
+}
+.main .letter-close .envelope-msg {
+  padding-top: 20px;
+  color: #435942;
+  text-align: center;
+  font-family: "OngleipKonkon";
+}
+.main .letter-close h2 {
+  font-family: "OngleipKonkon";
+  color: #435942;
+  text-align: center;
+}
+.main .letter-open {
+  margin: 200px auto 0px auto;
+  display: none;
+}
+.main .letter-open .messagebox {
+  background-color: ivory;
+  width: 400px;
+  margin: auto;
+  color: #435942;
+  padding: 30px;
+  font-size: 20px;
+  line-height: 16px;
+  box-shadow: 0px 0px 10px 0px white;
+  font-family: "OngleipKonkon";
+  font-size: 8px;
+}
+.main .letter-open .messagebox .from {
+  background-color: ivory;
+  text-align: right;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.main .letter-open h3 {
+  font-family: "OngleipKonkon";
+  color: #435942;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+@font-face {
+  font-family: "OngleipKonkon";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2") format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
